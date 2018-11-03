@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block badge %}
+Registration Form
+{% endblock badge %}
+{% block content %}
+<form action="." method="POST">
+    {% csrf_token %}
+    <p>Have an account ?
+        <a href="{% url 'login' %}">Log In</a>
+    </p>
+    {{ form.as_p }}
+    <input type="submit" value="Signup" class="btn btn-primary">
+    <br><br>
+
+</form>
+{% endblock content %}

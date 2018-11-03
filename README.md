@@ -2,6 +2,15 @@
 
 A Django project with basic user functionality.
 
+### Screen Shots
+| Log In | Create an account |
+| -------|--------------|
+| <img src="./Screenshot/User_login.png" width="200"> | <img src="./Screenshot/User_registration.png" width="200"> |
+
+| Default Page | User Detail |
+| ---------------|------------------|
+| <img src="./Screenshot/Default_page.png" width="200"> | <img src="./Screenshot/User_detail.png" width="200"> |
+
 ### Functionality
 * Log in
 * Create an account
